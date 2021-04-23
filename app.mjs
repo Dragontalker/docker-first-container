@@ -1,6 +1,6 @@
 import express from 'express';
 
-import connectToDatebase from './helpers';
+import connectToDatebase from './helpers.mjs';
 
 const app = express();
 
